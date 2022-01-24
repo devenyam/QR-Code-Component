@@ -37,7 +37,6 @@ html, body {
 
 .card img {
     width: 100%;
-    /* max-height: 70%; */
     border-radius: 10px;
 }
 
@@ -89,65 +88,3 @@ html, body {
         width: 25%;
     }
 }
-/* .card {
-    background: hsl(0, 0%, 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 15px;
-    border-radius: 20px;
-}
-
-.card img {
-    height: 50%;
-    width: 100%;
-    border-radius: 10px;
-}
-
-.card .card-header {
-    text-align: center;
-    margin: 20px;
-    color: hsl(218, 44%, 22%);
-}
-
-.card .card-text-content {
-    text-align: center;
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
-    width: 80%;
-}
-
-.attribution {
-    text-align: center;
-} */
-
-/* @media (max-width: 499px) {
-    .card .card-header {
-        width: 80%;
-    }
-
-    .card .card-text-content {
-        width: 70%;
-    }
-} */
-
-/* @media (max-width: 1440px) {
-    .card {
-        width: 25%;
-    }
-
-    .card img{
-        height: 60%;
-    }
-
-    .card .card-header {
-        margin: 30px 10px;
-        width: 100%;
-        margin-bottom: 15px;
-    }
-
-    .card .card-text-content {
-        width: 80%;
-    }
-} */
