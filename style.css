@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 120vh;
+    font-family: 'Outfit', sans-serif;
+    background: hsl(212, 45%, 89%);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    min-height: 55%;
+    width: 25%;
+    border-radius: 20px;
+
+}
+
+.card img {
+    width: 100%;
+    /* max-height: 70%; */
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.content .card-header {
+    color: hsl(218, 44%, 22%);
+    
+}
+
+.content .card-text-content {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+.attribution {
+    text-align: center;
+} 
+
+@media (max-width: 499px) {
+    .card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 699px) {
+    .card {
+        width: 75%;
+    }
+}
+
+@media (min-width: 700px) {
+    .card {
+        width: 40%;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .card {
+        width: 25%;
+    }
+}
+/* .card {
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.card img {
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .card-header {
+    text-align: center;
+    margin: 20px;
+    color: hsl(218, 44%, 22%);
+}
+
+.card .card-text-content {
+    text-align: center;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    width: 80%;
+}
+
+.attribution {
+    text-align: center;
+} */
+
+/* @media (max-width: 499px) {
+    .card .card-header {
+        width: 80%;
+    }
+
+    .card .card-text-content {
+        width: 70%;
+    }
+} */
+
+/* @media (max-width: 1440px) {
+    .card {
+        width: 25%;
+    }
+
+    .card img{
+        height: 60%;
+    }
+
+    .card .card-header {
+        margin: 30px 10px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .card .card-text-content {
+        width: 80%;
+    }
+} */
